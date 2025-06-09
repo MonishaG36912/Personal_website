@@ -1659,3 +1659,54 @@ input, select, textarea {
 		body.is-preload #footer {
 			opacity: 0;
 		}
+
+		#Experience {
+		max-width: 700px;
+		margin: 0 auto;
+		font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+		color: #f5f5dc; /* cream color for main text */
+		}
+
+		.job {
+		margin-bottom: 2rem;
+		}
+
+		.job-header {
+		display: flex;
+		justify-content: space-between;
+		align-items: baseline;
+		border-bottom: 2px solid #666; /* lighter border for dark bg */
+		padding-bottom: 4px;
+		margin-bottom: 8px;
+		}
+
+		.job-header h3 {
+		font-weight: 700;
+		font-size: 1.2rem;
+		margin: 0;
+		color: #fff; /* white for headings */
+		}
+
+		.job-date {
+		font-style: italic;
+		color: #ccc; /* light gray for dates */
+		font-size: 0.9rem;
+		white-space: nowrap;
+		}
+
+		.job-summary {
+		font-style: italic;
+		margin-bottom: 8px;
+		color: #ddd; /* lighter gray for summaries */
+		}
+
+		.job ul {
+		padding-left: 20px;
+		list-style-type: disc;
+		color: #eee; /* near white for list items */
+		line-height: 1.5;
+		}
+
+		.job ul li {
+		margin-bottom: 6px;
+		}
